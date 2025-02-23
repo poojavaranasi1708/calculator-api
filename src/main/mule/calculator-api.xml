@@ -40,7 +40,7 @@ ns soap http://schemas.xmlsoap.org/soap/envelope
     body: {
         soap#Fault: {
             statusCode: 500,
-            rootCause: "Internal Server Error"
+            rootCause: "Internal Server "
         }
     } 
 }]]></ee:set-payload>
